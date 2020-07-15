@@ -1,61 +1,146 @@
-<!DOCTYPE html>
 <html>
+
+<head>
+    <!-- Meta tags -->
+
+    <meta name="theme-color" content="#ffa7ca" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!--End of Meta tags -->
+    <!-- Bootstrap CDN CSS -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+
+    <link href="https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://unpkg.com/mdbootstrap@4.5.13/css/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <!--End of Bootstrap CDN CSS -->
+    <title>Erina Website</title>
+    <link id="favicon" rel="icon" type="image/png" href="indevelopment" />
+</head>
+
 <body>
-<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css">
-<div style="background-color: #ffa7ca">
-  <button style="padding: 3px; border: 1px ; background-color: #ff4d94; color: #fff; width: 70px ; height: 25px"><i class="fa fa-question-circle"></i><a href="#acerca" style="text-decoration : none; color : #fff;">  Acerca</a></button> <a href="https://discord.gg/7KAfSMD" ; target="popup"><button style="padding: 3px; border: 1px ; background-color: #ff4d94; color: #fff; width: 80px ; height: 25px"><i class="fa fa-bug"></i> Soporte</button></a> <a href="https://erinadevelopment.statuspage.io" ; target="popup"><button style="padding: 3px; border: 1px ; background-color: #ff4d94; color: #fff; width: 70px ; height: 25px"><i class="fa fa-signal"></i> Status</button></a> <button style="padding: 3px; border: 1px ; background-color: #ff4d94; color: #fff; width: 100px ; height: 25px"><i class="fa fa-heart"></i> Donaciones</button>
-</div>
-<div style="background-color: #ffffff ; font-family: Trebuchet MS">
-<center>
-	<img src="https://i.imgur.com/FPRTgGm.png">
-</center>
-<div style="background-color: #ffa7ca ; font-family: Trebuchet MS">
-<center>
-	<p>Un bot versátil e interactivo que busca mejorar tu servidor con funciones de utilidad, administración y diversión.</p>
-	<a href="https://discord.com/oauth2/authorize?client_id=468638780165849098&scope=bot&permissions=8&redirect_uri=https%3A%2F%2Ferina.novia.digital%2Fsupport"><button style="padding: 3px; border-radius: 6px; border: 1px ; background-color: #ff4d94; color: #fff; width: 100px ; height: 35px"> <b><span style="font-family: Trebuchet MS; font-size: 18px">Invite</span></b></button></a>
-</center>
-<hr style="height:1px;border-width:0;color: #FFFFFF ;background-color: #FFFFFF">
-<div style="padding-left: 400px">
-  <h3><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">Interactúa con Erina</span></mark></h3>
-</div>
-<div style="padding-left: 600px">
-	<img src="https://i.imgur.com/hHkd3En.gif">
-</div>
-<hr style="height:1px;border-width:0;color: #FFFFFF ;background-color: #FFFFFF">
-<div id="acerca" style="padding-left: 455px">
-  <h3><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">Acerca</span></mark></h3>
-</div>
-<center>
-<p>Erina es un bot de Discord que se centra en utilidades y funciones misceláneas/divertidas para tu servidor y sus usuarios. Con el avance del tiempo iremos agregando funciones/comandos y solucionando errores; no te preocupes, te mantendremos al tanto siempre de todos los avances que logremos.
-  Siendo un proyecto humilde, Erina aspira a ser un proyecto grande. En resumen, el objetivo de Erina es recolectar funciones de bots populares y facilitarle todo a tu servidor y a sus usuarios en un mismo bot.</p>
-<i>Algunas funciones son:</i>
-</center>
-<br>
-<div style="padding-left: 500px">
-<img src="https://i.imgur.com/n6TRP5Z.png"> <b>Pokédex</b> <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!pokedex Pokémon</span></mark></code>
-<br>
-<img src="https://i.imgur.com/ZEwoGx9.png"> <b>Vínculo con osu!</b> <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!osu Usuario</span></mark></code>
-<br>
-<img src="https://i.imgur.com/bgeZgJC.png"> <b>Búsqueda reversa de imágenes</b> <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!sauce URL</span></mark></code>
-<br>
-<img src="https://i.imgur.com/AZ8gmZl.png"> <b>Vista de la Tierra</b> <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!earth</span></mark></code>
-<br>
-<img src="https://i.imgur.com/br6Zn1G.png"> <b>Comandos de moderación</b> (<code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!ban</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!prune</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!kick</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!warn</span></mark></code>, etc)
-<br>
-<img src="https://i.imgur.com/CFurIQE.png"> <b>Comandos administrativos</b> (<code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!addemote</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!banword</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!setrole</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!setprefix</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!setstats</span></mark></code>, etc)
-<br>
-<img src="https://i.imgur.com/g5IUsHq.png"> <b>Comandos de utilidad</b> (<code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!avatar</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!poll</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!ping</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!profile</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!serverinfo</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!roles</span></mark></code>, etc)
-<br>
-<img src="https://i.imgur.com/SXjq5J4.png"> <b>Comandos interactivos</b> (<code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!kiss</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!hug</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!bite</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!pat</span></mark></code>, etc)
-<br>
-<img src="https://i.imgur.com/HEurCX1.png"> <b>Comandos divertidos</b> (<code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!facts</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!joke</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!trash</span></mark></code>, <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!ship</span></mark></code>, etc)
-</div>
-<center>
-<i>Para conocer más comandos y funciones, ¡escribe</i> <code><mark style="background-color: #ff4d94"><span style="color: #FFFFFF">e!help</span></mark></code><i>!</i>
-</center>
-<br>
-<br>
-<h2><i>En construcción</i></h2>
-</div>
+    <div class="main">
+        <!-- <nav class="navbar navbar-dark">
+            <img src="img/bgportal.png" class="animated fadeInLeftBig" href="#" width="70">
+            <form class="form-inline">
+                <button class="btn btn-weez">
+                       <a style="text-decoration: none; color:white;" href="#soporte"> <i class="fas fa-key"></i> Bot Invite </a>
+                </button>
+                </a>
+            </form>
+        </nav>!-->
+        <div class="flex-center flex-column">
+            <img src="img/bgportal.png" class="animated fadeInLeftBig">
+            <h1 class="animated jello">Erina Discord Bot</h1>
+
+            <a href="https://discordapp.com/oauth2/authorize?client_id=468638780165849098&scope=bot&permissions=1879436407">
+                <button class="btn btn-weezmain btn-lg discord-blue-background font-size-15">
+                    <i class="fas fa-laptop"></i> Invitar
+            </button>
+            </a>
+        </div>
+    </div>
+    <section id="soporte" class="soporte pt-100 pb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 mx-auto text-center">
+                    <div class="soporte-titulo mb-100">
+                        <p class="line-1 anim-typewriter">Links De Interes...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="soporte-contenedor soporte-material">
+                        <h4>Soporte en Discord</h4>
+                        <p>Ofrecemos el mejor equipo de ayuda para resolver las dudas de todos los usuarios.</p>
+                        <a href="https://discord.gg/qRn7QCd" target="_blank">
+                            <button class="btn btn-discord" type="button">
+                           <i class="fas fa-server"></i> Soporte
+                       </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="soporte-contenedor soporte-material">
+                        <h4>Vota por nosotros</h4>
+                        <p>Al Votar obtienes comandos exclusivos.</p>
+                        <a target="_blank" href="https://top.gg/bot/468638780165849098">
+                            <button class="btn btn-doc" type="button">
+                           <i class="fas fa-book"></i> Vota por el bot
+                       </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="soporte-contenedor soporte-material">
+                        <h4>Aporta Tu Sugerencia</h4>
+                        <p>Plantea tu sugerencia en el siguente enlance</p>
+                        <a target="_blank" href="https://github.com/Erina-Devs/Bot-Sugerencias">
+                            <button class="btn btn-weez" type="button">
+                           <i class="fas fa-laptop"></i> Aportar
+                       </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!---TEAM-->
+
+    <section id="team" class="team pt-100 pb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 mx-auto text-center">
+                    <div class="team-titulo mb-100">
+                        <h1 class="animated jello color-team">Contribuidores</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-contenedor">
+                        <img src="https://cdn.discordapp.com/avatars/280985817097306113/5ebae6a0587c630c9aa165371f0d6d09.webp" style="height: 100px; border-radius: 50%;">
+                        <h1>Devsaider</h1>
+                        <p>Lead Developer</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-contenedor">
+                        <img src="https://cdn.discordapp.com/avatars/437742938122878976/d12c5ecae1a0668ddc2d1dcac9e118c2.webp" style="height: 100px; border-radius: 50%;">
+                        <h1>Facu</h1>
+                        <p>Developer</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-contenedor">
+                        <img src="https://cdn.discordapp.com/avatars/620684219785543680/b4c8b2ce14238444268b42887a4423ab.webp" style="height: 100px; border-radius: 50%;">
+                        <h1>Permisos</h1>
+                        <p>Security</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-5"> &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> |
+            <a> Maded by weez.pw | Edited By Permisos</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    </div>
 </body>
+
 </html>
