@@ -1,0 +1,43 @@
+.gradient {
+  background: linear-gradient(120deg,#ff558d,#8a3352);
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+}
+
+.h1, h1 {
+  font-family: "Montserrat";
+}
+
+.erina-logo-dev {
+  max-width: 100%;
+  height: auto;
+}
+
+.fas.fa-heart {
+  color: #ff7096;
+}
+
+.erina-title {
+  font-family: "Montserrat";
+}
+
+.erina-footer-logo {
+  max-width: 50%;
+}
+
+.fab.fa-discord {
+  width: 200px;
+}
+
+.erina-footer-links {
+  display: block;
+  color: #FFFFFF;
+  font-size: 16px;
+  opacity: .6;
+  font-weight: 500;
+  text-decoration: none;
+}
+
