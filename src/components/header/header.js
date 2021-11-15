@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import Data from "./../../data.json"
+import {useHistory} from 'react-router-dom'
 
-export default class header extends Component {
-  render() {
+const Header = () => {
+  
+    let history = useHistory()
     return (
       <nav className="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
   <div className="container">
@@ -27,7 +29,7 @@ export default class header extends Component {
     <div className="collapse navbar-collapse" id="navbarNav-1">
       <ul className="nav navbar-nav ml-auto">
         <li className="nav-item" role="presentation">
-            <a className="nav-link active" href="./sobre-nosotros">Sobre nosotros</a>
+            <a className="nav-link active" onClick={()=>history.push('/sobre-nosotros')} href="#">Sobre nosotros</a>
             
         </li>
         <li className="nav-item" role="presentation">
@@ -50,4 +52,5 @@ export default class header extends Component {
 
    )
   }
-}
+
+export default Header

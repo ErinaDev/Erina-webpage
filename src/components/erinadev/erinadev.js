@@ -21,6 +21,8 @@ export default class erinadev extends Component {
               Somos un equipo de personas que les gusta desarollar ideas en su
               tiempo libre.&nbsp;
             </p>
+            <p> Nos dedicamos a ofrecer herramientas de administración y bots a la medida para comunidades con un alto tráfico y demanda de usuarios.</p>
+            <p> <b>Creado el</b> 9 de febrero de 2020 </p>
           </div>
           <div className="col-xl-1 offset-xl-0" />
           <div className="col" size={20}>
