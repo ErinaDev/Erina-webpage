@@ -29,7 +29,7 @@ const Header = () => {
     <div className="collapse navbar-collapse" id="navbarNav-1">
       <ul className="nav navbar-nav ml-auto">
         <li className="nav-item" role="presentation">
-            <a className="nav-link active" onClick={()=>history.push('/sobre-nosotros')} href="#">Sobre nosotros</a>
+            <a className="nav-link active" onClick={()=>history.push('/sobre-nosotros')}>Sobre nosotros</a>
             
         </li>
         <li className="nav-item" role="presentation">
